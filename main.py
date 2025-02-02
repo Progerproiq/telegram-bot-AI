@@ -68,14 +68,14 @@ async def consultation(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 # Функція для оплати
 async def payment(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
-        "Скопіюйте номер натиснувши на нього: \n`4323 3473 6465 6808`",
+        "Скопіюйте номер натиснувши на нього: \n`8888 8888 8888 8888`",
         parse_mode="Markdown"
     )
 
 # Функція для дзвінка адвокату
 async def call_lawyer(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
-        "Скопіюйте номер натиснувши на нього:\n`+380997878883`",
+        "Скопіюйте номер натиснувши на нього:\n`+380888888888`",
         parse_mode="Markdown"
     )
 
